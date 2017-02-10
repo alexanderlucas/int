@@ -1,0 +1,58 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+import XCPlayground
+
+var str = "Hello, playground"
+
+let containerView = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 375.0, height: 667.0))
+containerView.backgroundColor = UIColor.whiteColor()
+XCPlaygroundPage.currentPage.liveView = containerView
+
+let label = UILabel()
+label.preferredMaxLayoutWidth = 200
+label.text = "00:00"
+label.font = UIFont.systemFontOfSize(40)
+label.frame = CGRectMake(0, 0, 500, 100)
+containerView.addSubview(label)
+
+let systemFontDesc = UIFont.systemFontOfSize(40,
+                                             weight: UIFontWeightLight).fontDescriptor()
+let fractionFontDesc = systemFontDesc.fontDescriptorByAddingAttributes(
+    [ UIFontDescriptorFeatureSettingsAttribute: [
+        [
+            UIFontFeatureTypeIdentifierKey: kFractionsType,
+            UIFontFeatureSelectorIdentifierKey: kDiagonalFractionsSelector,
+        ],]
+    ] )
+
+
+//let circle = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 50.0, height: 50.0))
+//circle.center = containerView.center
+//circle.layer.cornerRadius = 25.0
+//
+//let startingColor = UIColor(red: (253.0/255.0), green: (159.0/255.0), blue: (47.0/255.0), alpha: 1.0)
+//circle.backgroundColor = startingColor
+//
+//containerView.addSubview(circle);
+//
+//let rectangle = UIView(frame: CGRect(x: 0.0, y: 0.0, width: 50.0, height: 50.0))
+//rectangle.center = containerView.center
+//rectangle.layer.cornerRadius = 5.0
+//
+//rectangle.backgroundColor = UIColor.whiteColor()
+//
+//containerView.addSubview(rectangle)
+//
+//UIView.animateWithDuration(2.0, animations: { () -> Void in
+//    let endingColor = UIColor(red: (255.0/255.0), green: (61.0/255.0), blue: (24.0/255.0), alpha: 1.0)
+//    circle.backgroundColor = endingColor
+//    
+//    let scaleTransform = CGAffineTransformMakeScale(5.0, 5.0)
+//    
+//    circle.transform = scaleTransform
+//    
+//    let rotationTransform = CGAffineTransformMakeRotation(3.14)
+//    
+//    rectangle.transform = rotationTransform
+//})

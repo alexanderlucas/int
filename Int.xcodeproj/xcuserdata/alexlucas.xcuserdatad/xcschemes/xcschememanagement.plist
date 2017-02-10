@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>IntWatch (Complication).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>IntWatch (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>IntWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Notification - Tap Clock Thing WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Tap Clock Thing WatchKit App.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Tap Clock Thing.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F00BB7E81CC5ABD9005BBCE7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F04D56BE1C558818004D351D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F04D56D21C558819004D351D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F04D56DD1C558819004D351D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F04D56E61C558819004D351D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
